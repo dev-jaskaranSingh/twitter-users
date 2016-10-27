@@ -1,0 +1,13 @@
+{
+    "name": "moeen/twitter-sample-app",
+    "authors": [
+        {
+            "name": "Moeen Basra",
+            "email": "m.basra@live.com"
+        }
+    ],
+    "require": {
+	"guzzlehttp/guzzle": "~6.0",
+        "guzzlehttp/oauth-subscriber": "^0.3.0"
+    }
+}

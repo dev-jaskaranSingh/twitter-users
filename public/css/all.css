@@ -1,0 +1,219 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	color: #2f4f4f;
+	background: #fff;
+    font: 14px/18px Arial, Helvetica, sans-serif;
+	min-width: 320px;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: none;
+}
+
+* {
+	max-height: 1000000px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section,
+summary {
+	display: block;
+}
+
+img {
+	border-style: none;
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {text-decoration: underline;}
+
+form,
+fieldset {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2em;
+	margin: 0 0 1.2em;
+}
+
+p {
+	margin: 0 0 1.2em;
+}
+
+q {
+	quotes: none;
+}
+
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -.5em;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.form .row {
+    overflow: hidden;
+    margin: 0 -5px;
+    padding: 10px 0 0;
+}
+
+.form .col {
+    float: left;
+    width: 25%;
+    padding: 0 5px 10px;
+}
+
+.form input[type='search'],
+.form input[type='text'] {
+    width: 100%;
+    height: 30px;
+    padding: 5px 10px 6px;
+    line-height: 18px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px #ddd;
+    color: #2f4f4f;
+}
+
+.form input[type='submit'],
+.form button {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    background: #2fbee2;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 10px 6px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ddd;
+}
+
+.form input[type='submit']:hover,
+.form button:hover
+{background: #2f4f4f;}
+
+.table table {
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+}
+
+.table table tbody tr:nth-child(odd) {
+    background: #f3f6f8;
+}
+
+.table table th,
+.table table td {
+    padding: 10px;
+}
+
+.table table th:first-child,
+.table table td:first-child {
+    width: 50%;
+}
+
+.table span,
+.table a{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+
+.table .number {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0 20px;
+}
+
+.table .photo {
+    width: 50px;
+    height: 50px;
+    background: #ccd6dd;
+    padding: 2px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.table .name {
+    color: #2f4f4f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.table .user-name {
+    color: #5dc9e4;
+}
+
+.table img {
+    display: block;
+    width: 100%;
+    border-radius: 100%;
+}
+
+.loader {
+    background: rgba(0, 0, 0, 0) url("../images/ring.gif") no-repeat scroll center center / 50px 50px;
+    height: 50px;
+}
