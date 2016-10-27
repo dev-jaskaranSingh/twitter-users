@@ -8,5 +8,6 @@ This script could be used to search location based users having the highest numb
 
 **instructions:**
 
-clone directory
-run `composer install` :)
+1. clone directory
+2. run `composer install`
+3. privide appropriate value of twitter api [Here](https://github.com/moeen-basra/twitter-users/blob/master/Request.php) in function `getStack`.

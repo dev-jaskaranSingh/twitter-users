@@ -11,7 +11,7 @@ google.maps.event.addDomListener(window, 'load', init);
 
   $('#searchUsers').on('submit', function(e){
     e.preventDefault();
-    var url = '/twitter_user_api/functions.php?method=search',
+    var url = '/twitter_users/functions.php?method=search',
       data = $(this).serialize(),
       tbody = $('.table').find('tbody'),
       loader = '<tr><td colspan="3" class="loader"></td>';

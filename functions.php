@@ -14,7 +14,7 @@ if (!method_exists($functions, $method)) {
     return die('The function you are looking for must be missing');
 }
 
-return $functions->$method($data);
+return $functions->$method();
 
 class Functions {
 
